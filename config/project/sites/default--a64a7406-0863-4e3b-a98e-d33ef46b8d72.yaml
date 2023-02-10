@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: Mr.Rover
+primary: true
+siteGroup: cd7c5634-93a7-4526-ae0b-c03e1ba0ab5a # Default
+sortOrder: 1

@@ -1,0 +1,102 @@
+{% extends "index" %}
+
+{% block content %}
+    <main> 
+       <!-- Hero Area Start -->
+       <div class="slider-area2 slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center pt-50">
+                        <h2 class="text-white">Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Area End -->
+   
+     <!--? Our Services Start -->
+     <div class="our-services pt-5">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="cl-xl-7 col-lg-8 col-md-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-70">
+                        <span>Affordable &amp; Convenient</span>
+                        <h2>Memberships</h2>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+
+                {% for memberships in entry.amenities.all() %}
+                {% set image = memberships.icon.one %}
+
+                <div class=" col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-services text-center mb-30">
+                        <div style="padding: 2rem;" class="service-img">
+                            <img src="{{ image.url }}" width="40%" alt="">
+                        </div>
+                        <div class="services-price">
+                            <h2>{{ memberships.costs }} <span style="font-size: 12px;">{{memberships.frequency}}</span> </h2>
+                            
+                        </div>
+                        <div class="services-cap">
+                            <h2 style="font-weight: 600;">{{memberships.membershipName}}</h2>
+                            <p>{{memberships.membershipTagline}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+
+        
+             
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services pt-5">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="cl-xl-7 col-lg-8 col-md-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-70">
+                        <span>Pawsitively Purrfect Day Walks!</span>
+                        <h2>Day Walks</h2>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+
+
+                {% for walks in entry.amenitieswalks.all %}
+
+                <div class=" col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-services text-center mb-30">
+                        <div class="services-price">
+                            <h2>{{ walks.costs }} <span style="font-size: 12px;">{{walks.frequency}}</span></h2>
+                        </div>
+                        <div class="services-cap">
+                            <h2 style="font-weight: 600;">{{walks.membershipName}}</h2>
+                            <p>{{walks.membershipTagline}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+                
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services End -->
+    
+    
+ 
+    </main>
+{% endblock %}

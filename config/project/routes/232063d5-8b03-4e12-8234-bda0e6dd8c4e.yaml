@@ -1,0 +1,10 @@
+siteUid: null
+sortOrder: 7
+template: /contact/bootstrap/form
+uriParts:
+  - contact/bootstrap/
+  -
+    - slug
+    - '[^\/]+'
+  - /success
+uriPattern: 'contact/bootstrap/<slug:[^\/]+>/success'

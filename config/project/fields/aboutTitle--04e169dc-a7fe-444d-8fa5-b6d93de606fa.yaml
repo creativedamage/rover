@@ -1,0 +1,19 @@
+columnSuffix: komzlfty
+contentColumnType: text
+fieldGroup: c67d6569-d74c-4ee2-8eaa-0f01381bda90 # About
+handle: aboutTitle
+instructions: null
+name: 'About Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

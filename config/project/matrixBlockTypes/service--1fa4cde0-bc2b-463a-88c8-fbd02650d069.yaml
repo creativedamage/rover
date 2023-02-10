@@ -1,0 +1,138 @@
+field: 598d2e27-2384-44cb-ba29-65ab3dbbcfad # Service Card
+fieldLayouts:
+  91ea00a6-6460-4729-b1ea-8ed545629890:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c6ebcb81-6ccb-458e-8cb1-f57e1b21cac8 # Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 849de841-ff27-477d-bcaf-4650ff6a2b1d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b84544bc-07ed-43e9-8615-e8d973875160 # Service Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92186c0a-0497-445d-8739-c38e3005ffd3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2e475d76-037e-4958-923d-f190a5337de1 # Service Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c82fcd2e-a888-4245-9dec-e0047d958ada
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3176ad7c-89e7-4546-91e4-b509193f1dfb
+        userCondition: null
+fields:
+  2e475d76-037e-4958-923d-f190a5337de1: # Service Text
+    columnSuffix: aafgmtyo
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceText
+    instructions: null
+    name: 'Service Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b84544bc-07ed-43e9-8615-e8d973875160: # Service Name
+    columnSuffix: shijaiip
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceName
+    instructions: null
+    name: 'Service Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c6ebcb81-6ccb-458e-8cb1-f57e1b21cac8: # Icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: icon
+    instructions: null
+    name: Icon
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: service
+name: service
+sortOrder: 1

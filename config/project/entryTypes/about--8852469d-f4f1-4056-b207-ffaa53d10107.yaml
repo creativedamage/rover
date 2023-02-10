@@ -1,0 +1,91 @@
+fieldLayouts:
+  08d45e76-d4e1-44b1-9b45-cfdf22c2cc06:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cf02ee72-eadf-46d6-b850-bd5d94987ec2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 04e169dc-a7fe-444d-8fa5-b6d93de606fa # About Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2643535a-cab5-48fd-8a40-62a6a473fd79
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7a62965-7063-4f3e-ab39-58239b6abc52 # About Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07e5c004-78f9-4932-ba2e-2865d1c37d28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4623876a-58d5-4244-8aee-d6f4c0f17a35 # Mission Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d524a072-7d1e-4894-ba73-d5112818d6f1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 64856e3b-ca06-45c4-a60c-5607020f4182 # Mission Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8da527da-5ff8-4435-bc30-5e1ba56355bd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 31ae97f3-a6ed-4385-9de1-66584bc0e653
+        userCondition: null
+handle: about
+hasTitleField: false
+name: About
+section: 2eb22a54-45db-4b0e-886d-65f228921301 # About
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

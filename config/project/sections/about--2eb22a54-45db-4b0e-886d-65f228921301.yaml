@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: about
+name: About
+propagationMethod: all
+siteSettings:
+  a64a7406-0863-4e3b-a98e-d33ef46b8d72: # Mr.Rover
+    enabledByDefault: true
+    hasUrls: true
+    template: about.twig
+    uriFormat: about
+type: single

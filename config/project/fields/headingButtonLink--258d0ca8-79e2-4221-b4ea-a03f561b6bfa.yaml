@@ -1,0 +1,16 @@
+columnSuffix: odkhfxlu
+contentColumnType: string(255)
+fieldGroup: 2ce43aa2-0e42-4605-9227-edd21699b088 # Homepage
+handle: headingButtonLink
+instructions: null
+name: 'Heading Button Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+    - tel
+    - email
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

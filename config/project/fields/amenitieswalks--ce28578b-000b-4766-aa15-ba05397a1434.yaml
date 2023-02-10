@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7b81b304-24f4-4c80-ad1d-45365a62f551 # Services
+handle: amenitieswalks
+instructions: null
+name: amenitieswalks
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_amenitieswalks}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

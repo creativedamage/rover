@@ -1,0 +1,202 @@
+field: 6bf35a77-e818-4e64-afae-b3ca90d32d94 # amenities
+fieldLayouts:
+  20a6d65d-557d-40c1-a197-89299f648db2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2ed580a6-21b5-468f-9d21-f46a8750132e # icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 24a40fe6-0572-4826-a00a-e796583d5c5b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 81181ca7-b194-4e42-b84e-bca84b4ff0f2 # Costs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2259981f-19fa-4c8e-b014-8c9ea6caca73
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61afdca3-f2a9-4adb-a03c-c5f486696de3 # Frequency
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e774a220-6e56-4840-a449-217d44977f23
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9329bf45-c9b6-497e-88f4-e3bf4850e5b0 # Membership Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40ff89fa-ae0a-4c0d-b38e-44d2dc6db9a5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 997ae0b3-a535-46d8-b117-b6ea2c553c9e # Membership Tagline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c0a6b6e-1153-4090-a60f-5bfcbe1196e4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a748fff1-6360-4495-b6e2-77c8f1c58952
+        userCondition: null
+fields:
+  2ed580a6-21b5-468f-9d21-f46a8750132e: # icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: icon
+    instructions: null
+    name: icon
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  61afdca3-f2a9-4adb-a03c-c5f486696de3: # Frequency
+    columnSuffix: hrtmhjdj
+    contentColumnType: text
+    fieldGroup: null
+    handle: frequency
+    instructions: 'Always use / (e.g /walk)'
+    name: Frequency
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  997ae0b3-a535-46d8-b117-b6ea2c553c9e: # Membership Tagline
+    columnSuffix: alshxyay
+    contentColumnType: text
+    fieldGroup: null
+    handle: membershipTagline
+    instructions: null
+    name: 'Membership Tagline'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9329bf45-c9b6-497e-88f4-e3bf4850e5b0: # Membership Name
+    columnSuffix: uqxrwdiy
+    contentColumnType: text
+    fieldGroup: null
+    handle: membershipName
+    instructions: null
+    name: 'Membership Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  81181ca7-b194-4e42-b84e-bca84b4ff0f2: # Costs
+    columnSuffix: sihhbjfx
+    contentColumnType: text
+    fieldGroup: null
+    handle: costs
+    instructions: null
+    name: Costs
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: memberships
+name: memberships
+sortOrder: 1

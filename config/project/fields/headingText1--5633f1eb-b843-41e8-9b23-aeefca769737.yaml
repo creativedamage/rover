@@ -1,0 +1,19 @@
+columnSuffix: gxgoawoo
+contentColumnType: text
+fieldGroup: 2ce43aa2-0e42-4605-9227-edd21699b088 # Homepage
+handle: headingText1
+instructions: null
+name: 'Heading Text 1'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

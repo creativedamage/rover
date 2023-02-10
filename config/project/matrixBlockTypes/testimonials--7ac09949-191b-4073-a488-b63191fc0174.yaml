@@ -1,0 +1,118 @@
+field: c9c1166c-cdfc-4372-8e92-86caf56788a8 # Testimonial
+fieldLayouts:
+  23869b4d-0832-457b-9c75-2703b79d81e4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4bdec5e6-0df0-4b34-83b5-d2ce2608b292 # Person Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 412e4206-1652-4974-976b-636680fefce9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c00269b1-6157-43e0-824d-ddda588c0258 # Dog Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a4bce4e-3219-4444-9782-ee6732034e79
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dc51f921-328e-4d26-8683-686e171d8ffb # Testimonial
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e028764-7357-46a2-bb9c-2a16be43e3ab
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f84ca746-d7d7-446e-b48b-2e2d21cb6b9a
+        userCondition: null
+fields:
+  4bdec5e6-0df0-4b34-83b5-d2ce2608b292: # Person Name
+    columnSuffix: xqdeinjk
+    contentColumnType: text
+    fieldGroup: null
+    handle: personName
+    instructions: null
+    name: 'Person Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c00269b1-6157-43e0-824d-ddda588c0258: # Dog Name
+    columnSuffix: wmbcjpop
+    contentColumnType: text
+    fieldGroup: null
+    handle: dogName
+    instructions: null
+    name: 'Dog Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  dc51f921-328e-4d26-8683-686e171d8ffb: # Testimonial
+    columnSuffix: ogzhnlth
+    contentColumnType: text
+    fieldGroup: null
+    handle: testimonial
+    instructions: null
+    name: Testimonial
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: testimonials
+name: testimonials
+sortOrder: 1

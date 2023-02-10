@@ -1,0 +1,91 @@
+fieldLayouts:
+  2c24b4b4-f469-4b95-9dcf-546f84ee6043:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 22ed3876-ec71-4ebd-b40a-2c2d5bf9906c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7f8e8789-d650-4712-98a2-e923c972ff45 # Services Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99dc34c6-ef36-415a-8851-6a55bd234ce7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 555cb54e-61b9-495c-9979-5d55ed278e36 # ServicesTitle2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe90a0d9-5d2e-447d-85c8-a20dc6aa746a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6bf35a77-e818-4e64-afae-b3ca90d32d94 # amenities
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 918dc9a2-ce0f-4204-8349-cfd949b194b3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ce28578b-000b-4766-aa15-ba05397a1434 # amenitieswalks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79f4c3eb-a939-4a4e-b095-d93b2d26f8a8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 032a18b0-66bb-4647-92b8-146777469f7d
+        userCondition: null
+handle: services
+hasTitleField: false
+name: Services
+section: e83ce76d-836f-4a8a-a802-d1070f64a38d # Services
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

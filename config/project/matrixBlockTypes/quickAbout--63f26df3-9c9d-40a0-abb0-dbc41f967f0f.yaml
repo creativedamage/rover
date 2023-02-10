@@ -1,0 +1,86 @@
+field: dea4078f-3471-42a4-94bc-ab12fbac002f # Quick About
+fieldLayouts:
+  f06c36be-f2fc-4a15-81f1-50cb74a02fd1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9e26693a-bbb9-465b-89df-b729c3db4c91 # Quick Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5400a507-b33d-4c04-bfed-0bfc80a54afb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5919c52b-afca-46e2-a9ef-f87d8f38dac2 # Quick Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5dcdd11-bd68-4469-b76c-6c400537faea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e8df452b-d9b0-40d5-9730-c1598415cf7c
+        userCondition: null
+fields:
+  9e26693a-bbb9-465b-89df-b729c3db4c91: # Quick Title
+    columnSuffix: vcesrgvx
+    contentColumnType: text
+    fieldGroup: null
+    handle: quickTitle
+    instructions: null
+    name: 'Quick Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5919c52b-afca-46e2-a9ef-f87d8f38dac2: # Quick Text
+    columnSuffix: fsvocdth
+    contentColumnType: text
+    fieldGroup: null
+    handle: quickText
+    instructions: null
+    name: 'Quick Text'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: quickAbout
+name: 'Quick About'
+sortOrder: 1

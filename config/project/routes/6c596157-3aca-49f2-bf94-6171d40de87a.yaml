@@ -1,0 +1,13 @@
+siteUid: null
+sortOrder: 10
+template: /contact/bootstrap-dark/edit_submission
+uriParts:
+  - contact/bootstrap-dark/
+  -
+    - slug
+    - '[^\/]+'
+  - /submissions/edit/
+  -
+    - token
+    - \w+
+uriPattern: 'contact/bootstrap-dark/<slug:[^\/]+>/submissions/edit/<token:\w+>'

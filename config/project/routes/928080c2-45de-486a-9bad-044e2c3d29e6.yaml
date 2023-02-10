@@ -1,0 +1,14 @@
+siteUid: null
+sortOrder: 8
+template: /contact/bootstrap-dark/view_submission
+uriParts:
+  - contact/bootstrap-dark/
+  -
+    - slug
+    - '[^\/]+'
+  - /submissions/
+  -
+    - id
+    - \d+
+  - /success
+uriPattern: 'contact/bootstrap-dark/<slug:[^\/]+>/submissions/<id:\d+>/success'

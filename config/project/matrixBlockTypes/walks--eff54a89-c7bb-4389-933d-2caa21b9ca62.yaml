@@ -1,0 +1,142 @@
+field: 6bf35a77-e818-4e64-afae-b3ca90d32d94 # amenities
+fieldLayouts:
+  5df48885-44f3-49ea-9ce1-688c8b9a1e1e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3103d0c0-5710-4dc3-adb3-8ad30de3bd88 # Costs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d67108a-92c6-4e92-88ac-d97f11bc42d3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a5b1a2ef-e5c4-43c1-b43d-51867bca2e2e # Frequency
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8762173c-33d2-41be-8a95-03522cbb3da8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8460fd5d-05b0-4739-8bc9-e28afa75f011 # Membership Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40be7223-d31f-4da4-9deb-790f23f8e4d1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0d21094b-1403-403e-b790-266b01362b78 # Membership Tagline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21ea6db6-1a97-43ee-b1cf-70e1fa8cdcb6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 65d779d8-4bc0-4117-b67a-bc4accb95b1f
+        userCondition: null
+fields:
+  0d21094b-1403-403e-b790-266b01362b78: # Membership Tagline
+    columnSuffix: ybedxyzx
+    contentColumnType: text
+    fieldGroup: null
+    handle: membershipTagline
+    instructions: null
+    name: 'Membership Tagline'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3103d0c0-5710-4dc3-adb3-8ad30de3bd88: # Costs
+    columnSuffix: fegyovud
+    contentColumnType: text
+    fieldGroup: null
+    handle: costs
+    instructions: null
+    name: Costs
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8460fd5d-05b0-4739-8bc9-e28afa75f011: # Membership Name
+    columnSuffix: xnilicac
+    contentColumnType: text
+    fieldGroup: null
+    handle: membershipName
+    instructions: null
+    name: 'Membership Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a5b1a2ef-e5c4-43c1-b43d-51867bca2e2e: # Frequency
+    columnSuffix: hzaxtsca
+    contentColumnType: text
+    fieldGroup: null
+    handle: frequency
+    instructions: 'Always use / (e.g /walk)'
+    name: Frequency
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: walks
+name: walks
+sortOrder: 2

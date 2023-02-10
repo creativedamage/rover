@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2ce43aa2-0e42-4605-9227-edd21699b088 # Homepage
+handle: teamMembers
+instructions: null
+name: 'Team Members'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_teammembers}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

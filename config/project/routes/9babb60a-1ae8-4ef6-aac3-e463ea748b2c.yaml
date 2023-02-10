@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 6
+template: /contact/bootstrap/form
+uriParts:
+  - contact/bootstrap/
+  -
+    - slug
+    - '[^\/]+'
+uriPattern: 'contact/bootstrap/<slug:[^\/]+>'

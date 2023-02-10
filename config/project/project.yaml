@@ -1,0 +1,153 @@
+dateModified: 1675551120
+elementSources:
+  craft\elements\User:
+    -
+      key: '*'
+      type: native
+    -
+      defaultSort:
+        - lastName
+        - asc
+      disabled: false
+      key: admins
+      tableAttributes:
+        - fullName
+        - email
+        - dateCreated
+        - lastLoginDate
+      type: native
+    -
+      heading: 'Account Type'
+      type: heading
+    -
+      defaultSort:
+        - lastName
+        - asc
+      disabled: false
+      key: credentialed
+      tableAttributes:
+        - fullName
+        - email
+        - dateCreated
+        - lastLoginDate
+      type: native
+    -
+      defaultSort:
+        - lastName
+        - asc
+      disabled: false
+      key: inactive
+      tableAttributes:
+        - fullName
+        - email
+        - dateCreated
+        - lastLoginDate
+      type: native
+fs:
+  uploads:
+    hasUrls: true
+    name: uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0a2df136-aa6f-4175-b770-417641be0c5f: Home # Home
+    0a236656-31d2-4d56-9f4d-a37ce86573b3: 'Heading Button Text' # Heading Button Text
+    0d21094b-1403-403e-b790-266b01362b78: 'Membership Tagline' # Membership Tagline
+    1e51779e-4435-4a67-a894-94f7e7aad5c4: Festivals # Festivals
+    1fa4cde0-bc2b-463a-88c8-fbd02650d069: service # service
+    2bafadf1-9fdd-4d06-af66-1123f17fe77a: walks # walks
+    2ce43aa2-0e42-4605-9227-edd21699b088: Homepage # Homepage
+    2e475d76-037e-4958-923d-f190a5337de1: 'Service Text' # Service Text
+    2eb22a54-45db-4b0e-886d-65f228921301: About # About
+    2ed580a6-21b5-468f-9d21-f46a8750132e: icon # icon
+    3fd7e253-fbd2-41da-8cea-0a658d896ef5: 'Team Members' # Team Members
+    4bdec5e6-0df0-4b34-83b5-d2ce2608b292: 'Person Name' # Person Name
+    04e169dc-a7fe-444d-8fa5-b6d93de606fa: 'About Title' # About Title
+    6bf35a77-e818-4e64-afae-b3ca90d32d94: amenities # amenities
+    6d985331-a787-42ff-9fae-5b290291dda2: Common # Common
+    6dd39846-bea4-42c9-bd98-a569eba1b583: Uploads # Uploads
+    7ac09949-191b-4073-a488-b63191fc0174: testimonials # testimonials
+    7b81b304-24f4-4c80-ad1d-45365a62f551: Services # Services
+    7f8e8789-d650-4712-98a2-e923c972ff45: 'Services Title' # Services Title
+    9e26693a-bbb9-465b-89df-b729c3db4c91: 'Quick Title' # Quick Title
+    9ec28e10-0cdd-4eb2-8d28-e2e53e8b88b9: TeamMember # TeamMember
+    61afdca3-f2a9-4adb-a03c-c5f486696de3: Frequency # Frequency
+    63f26df3-9c9d-40a0-abb0-dbc41f967f0f: 'Quick About' # Quick About
+    74a7ab52-f6d7-4316-9fef-9f2196b7dfd4: 'Membership Name' # Membership Name
+    258d0ca8-79e2-4221-b4ea-a03f561b6bfa: 'Heading Button Link' # Heading Button Link
+    554c449c-e47e-4454-b5e1-a50530d540d1: Frequency # Frequency
+    555cb54e-61b9-495c-9979-5d55ed278e36: ServicesTitle2 # ServicesTitle2
+    598d2e27-2384-44cb-ba29-65ab3dbbcfad: 'Service Card' # Service Card
+    997ae0b3-a535-46d8-b117-b6ea2c553c9e: 'Membership Tagline' # Membership Tagline
+    3103d0c0-5710-4dc3-adb3-8ad30de3bd88: Costs # Costs
+    5130f1e3-c17a-44c3-b039-276257d99724: memberships # memberships
+    5633f1eb-b843-41e8-9b23-aeefca769737: 'Heading Text 1' # Heading Text 1
+    5919c52b-afca-46e2-a9ef-f87d8f38dac2: 'Quick Text' # Quick Text
+    8460fd5d-05b0-4739-8bc9-e28afa75f011: 'Membership Name' # Membership Name
+    9329bf45-c9b6-497e-88f4-e3bf4850e5b0: 'Membership Name' # Membership Name
+    64856e3b-ca06-45c4-a60c-5607020f4182: 'Mission Text' # Mission Text
+    79335fef-05c0-4b31-9bd9-9bf158705b7f: 'Public Schema' # Public Schema
+    81181ca7-b194-4e42-b84e-bca84b4ff0f2: Costs # Costs
+    03192650-61a4-4242-89c0-bebbd7a8ba20: Home # Home
+    4623876a-58d5-4244-8aee-d6f4c0f17a35: 'Mission Title' # Mission Title
+    8852469d-f4f1-4056-b207-ffaa53d10107: About # About
+    a5b1a2ef-e5c4-43c1-b43d-51867bca2e2e: Frequency # Frequency
+    a64a7406-0863-4e3b-a98e-d33ef46b8d72: Mr.Rover # Mr.Rover
+    b1c724d4-e5bb-4114-8ee2-47f0bc624d36: 'Team Member Image' # Team Member Image
+    b86c54e7-b312-4595-ba37-c0ffb4d0e507: 'Rolling Loud' # Rolling Loud
+    b84544bc-07ed-43e9-8615-e8d973875160: 'Service Name' # Service Name
+    c00269b1-6157-43e0-824d-ddda588c0258: 'Dog Name' # Dog Name
+    c6ebcb81-6ccb-458e-8cb1-f57e1b21cac8: Icon # Icon
+    c7a62965-7063-4f3e-ab39-58239b6abc52: 'About Text' # About Text
+    c7b34652-e60e-40c4-bc6b-002c9adc269c: 'Services Subtext' # Services Subtext
+    c9c1166c-cdfc-4372-8e92-86caf56788a8: Testimonial # Testimonial
+    c67d6569-d74c-4ee2-8eaa-0f01381bda90: About # About
+    ccaf7198-c0e4-4a3f-9138-f5e8b7c2695b: 'Quick Image' # Quick Image
+    cd7c5634-93a7-4526-ae0b-c03e1ba0ab5a: Default # Default
+    ce28578b-000b-4766-aa15-ba05397a1434: amenitieswalks # amenitieswalks
+    d41cd667-380d-4e3d-b2cb-0a26088bcb0b: 'Team Member Role' # Team Member Role
+    d8382c5c-b9d3-47b7-b99e-5bc81222fc2a: 'Heading Title' # Heading Title
+    dc51f921-328e-4d26-8683-686e171d8ffb: Testimonial # Testimonial
+    dea4078f-3471-42a4-94bc-ab12fbac002f: 'Quick About' # Quick About
+    df28e352-9ab5-42bd-aab1-85bf9fe34b1a: 'Membership Tagline' # Membership Tagline
+    e3f2e2b2-8cb5-4b03-a466-9b3b476c98a4: Costs # Costs
+    e83ce76d-836f-4a8a-a802-d1070f64a38d: Services # Services
+    e595afb3-5810-42d7-8e88-878ac5ce6009: Services # Services
+    ed3046a0-c7b7-4c61-9f54-85783cbe2703: Sites # Sites
+    eff54a89-c7bb-4389-933d-2caa21b9ca62: walks # walks
+    f425df24-0e8f-401d-bebd-001154524f4f: 'Team Member Name' # Team Member Name
+plugins:
+  freeform:
+    edition: pro
+    enabled: true
+    licenseKey: LDCJ4O5U4H8L2HH48YYPLRUE
+    schemaVersion: 4.2.2
+  logs:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  mailjet-adapter:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  youtubeliveembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+shopify:
+  productFieldLayout:
+    14b4cf26-ac49-420c-8038-968edce7d7c0: null
+system:
+  edition: solo
+  live: true
+  name: 'MR. ROVER'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: America/New_York
