@@ -1,11 +1,12 @@
 {
   "require": {
-    "craftcms/cms": "4.3.7",
+    "craftcms/cms": "4.3.9",
     "craftcms/redactor": "3.0.3",
     "ether/logs": "4.0.0",
+    "fortrabbit/craft-copy": "^2.3",
     "nystudio107/craft-youtubeliveembed": "4.0.0",
     "robuust/craft-mailjet": "1.0.2",
-    "solspace/craft-freeform": "4.0.13",
+    "solspace/craft-freeform": "4.0.15",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -19,7 +20,8 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
-      "yiisoft/yii2-composer": true
+      "yiisoft/yii2-composer": true,
+      "fortrabbit/craft-auto-migrate": true
     },
     "sort-packages": true,
     "optimize-autoloader": true,
