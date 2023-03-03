@@ -4,60 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a785558870125133e61270708124ab3",
+    "content-hash": "ab71c9a823bfcd0ae2a9c05e9280a2ed",
     "packages": [
-        {
-            "name": "albertofem/rsync-lib",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/albertofem/rsync-lib.git",
-                "reference": "6f7e31a15d5a2fe712136c367a35d2599bb5dbe5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/albertofem/rsync-lib/zipball/6f7e31a15d5a2fe712136c367a35d2599bb5dbe5",
-                "reference": "6f7e31a15d5a2fe712136c367a35d2599bb5dbe5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.0,<6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "AFM": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alberto Fernandez",
-                    "email": "albertofem@gmail.com"
-                }
-            ],
-            "description": "A simple PHP rsync wrapper library",
-            "homepage": "http://albertofem.com",
-            "keywords": [
-                "rsync library"
-            ],
-            "support": {
-                "issues": "https://github.com/albertofem/rsync-lib/issues",
-                "source": "https://github.com/albertofem/rsync-lib/tree/master"
-            },
-            "time": "2018-01-13T20:13:12+00:00"
-        },
         {
             "name": "cebe/markdown",
             "version": "1.2.1",
@@ -492,11 +440,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.9",
+            "version": "4.3.10",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/12a6e0952d7130740eb0ac2e33bedebf9ba37e5a",
-                "reference": "12a6e0952d7130740eb0ac2e33bedebf9ba37e5a",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/af40a2d6e0557f6a600a22f29f1660639cd11b81",
+                "reference": "af40a2d6e0557f6a600a22f29f1660639cd11b81",
                 "shasum": ""
             },
             "require": {
@@ -587,7 +535,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-02-14T18:50:04+00:00"
+            "time": "2023-02-17T22:32:58+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1214,149 +1162,25 @@
             "time": "2022-09-18T07:06:19+00:00"
         },
         {
-            "name": "fortrabbit/craft-auto-migrate",
-            "version": "2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fortrabbit/craft-auto-migrate.git",
-                "reference": "4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-auto-migrate/zipball/4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
-                "reference": "4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.10.22 || ^2.1.9"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "fortrabbit\\CraftAutoMigrate\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "fortrabbit\\CraftAutoMigrate\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oliver Stark",
-                    "homepage": "https://www.fortrabbit.com/"
-                }
-            ],
-            "description": "Runs migrations automatically",
-            "keywords": [
-                "composer",
-                "craftcms",
-                "development"
-            ],
-            "support": {
-                "issues": "https://github.com/fortrabbit/craft-auto-migrate/issues",
-                "source": "https://github.com/fortrabbit/craft-auto-migrate/tree/2.5.0"
-            },
-            "time": "2022-11-08T08:39:35+00:00"
-        },
-        {
-            "name": "fortrabbit/craft-copy",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fortrabbit/craft-copy.git",
-                "reference": "39662221ccc107b7097ecb8ea3bc97a8a644389b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-copy/zipball/39662221ccc107b7097ecb8ea3bc97a8a644389b",
-                "reference": "39662221ccc107b7097ecb8ea3bc97a8a644389b",
-                "shasum": ""
-            },
-            "require": {
-                "albertofem/rsync-lib": "^1.0.0",
-                "craftcms/cms": "^4.0.0",
-                "craftcms/plugin-installer": "^1.5.6",
-                "fortrabbit/craft-auto-migrate": "^2.5.0",
-                "ostark/yii2-artisan-bridge": "^1.3.1",
-                "php": "^8.0.2",
-                "symfony/process": "^5.0 | ^6.0",
-                "symfony/yaml": "^4.2 | ^5.0",
-                "symplify/git-wrapper": "^10.0",
-                "vlucas/phpdotenv": "^3.4.0 | ^5.4"
-            },
-            "require-dev": {
-                "craftcms/phpstan": "dev-main",
-                "craftcms/rector": "dev-main"
-            },
-            "bin": [
-                "bin/craft-copy-import-db.php",
-                "bin/craft-copy-env.php"
-            ],
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Copy",
-                "handle": "copy",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/fortrabbit/craft-copy/master/CHANGELOG.md"
-            },
-            "autoload": {
-                "psr-4": {
-                    "fortrabbit\\Copy\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oliver Stark",
-                    "homepage": "https://www.fortrabbit.com/"
-                }
-            ],
-            "description": "Tooling for Craft on fortrabbit",
-            "keywords": [
-                "Craft",
-                "craftcms",
-                "deployment",
-                "git",
-                "rsync"
-            ],
-            "support": {
-                "docs": "https://github.com/fortrabbit/craft-copy/blob/master/README.md",
-                "issues": "https://github.com/fortrabbit/craft-copy/issues",
-                "source": "https://github.com/fortrabbit/craft-copy/tree/2.3.0"
-            },
-            "time": "2023-02-06T12:17:17+00:00"
-        },
-        {
             "name": "graham-campbell/result-type",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8"
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/a878d45c1914464426dc94da61c9e1d36ae262a8",
-                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "phpoption/phpoption": "^1.9"
+                "phpoption/phpoption": "^1.9.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
+                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
             "type": "library",
             "autoload": {
@@ -1385,7 +1209,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.0"
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.1"
             },
             "funding": [
                 {
@@ -1397,7 +1221,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-30T15:56:11+00:00"
+            "time": "2023-02-25T20:23:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1701,11 +1525,11 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.52.0",
+            "version": "v9.52.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/f3ac81877e98c0c096ef403ab4f0c7ed96623c18",
-                "reference": "f3ac81877e98c0c096ef403ab4f0c7ed96623c18",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/0168d0e44ea0c4fe5451fe08cde7049b9e9f9741",
+                "reference": "0168d0e44ea0c4fe5451fe08cde7049b9e9f9741",
                 "shasum": ""
             },
             "require": {
@@ -1742,11 +1566,11 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "time": "2023-02-10T19:46:01+00:00"
+            "time": "2023-02-22T11:32:27+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.52.0",
+            "version": "v9.52.4",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364",
@@ -1782,7 +1606,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.52.0",
+            "version": "v9.52.4",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/44f65d723b13823baa02ff69751a5948bde60c22",
@@ -1820,7 +1644,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.52.0",
+            "version": "v9.52.4",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/e3bfaf6401742a9c6abca61b9b10e998e5b6449a",
@@ -2341,207 +2165,6 @@
             "time": "2023-01-29T18:53:47+00:00"
         },
         {
-            "name": "nette/utils",
-            "version": "v3.2.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/utils.git",
-                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
-                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2 <8.3"
-            },
-            "conflict": {
-                "nette/di": "<3.0.6"
-            },
-            "require-dev": {
-                "jetbrains/phpstorm-attributes": "dev-master",
-                "nette/tester": "~2.0",
-                "phpstan/phpstan": "^1.0",
-                "tracy/tracy": "^2.3"
-            },
-            "suggest": {
-                "ext-gd": "to use Image",
-                "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
-                "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
-                "ext-json": "to use Nette\\Utils\\Json",
-                "ext-mbstring": "to use Strings::lower() etc...",
-                "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()",
-                "ext-xml": "to use Strings::length() etc. when mbstring is not available"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0-only",
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "array",
-                "core",
-                "datetime",
-                "images",
-                "json",
-                "nette",
-                "paginator",
-                "password",
-                "slugify",
-                "string",
-                "unicode",
-                "utf-8",
-                "utility",
-                "validation"
-            ],
-            "support": {
-                "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v3.2.9"
-            },
-            "time": "2023-01-18T03:26:20+00:00"
-        },
-        {
-            "name": "nystudio107/craft-youtubeliveembed",
-            "version": "4.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nystudio107/craft-youtubeliveembed.git",
-                "reference": "7e4771b8e12743f42fd815dbd04cb3bbb182eb00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-youtubeliveembed/zipball/7e4771b8e12743f42fd815dbd04cb3bbb182eb00",
-                "reference": "7e4771b8e12743f42fd815dbd04cb3bbb182eb00",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "class": "nystudio107\\youtubeliveembed\\YoutubeLiveEmbed",
-                "handle": "youtubeliveembed",
-                "name": "YouTube Live Embed"
-            },
-            "autoload": {
-                "psr-4": {
-                    "nystudio107\\youtubeliveembed\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "nystudio107",
-                    "homepage": "https://nystudio107.com"
-                }
-            ],
-            "description": "This plugin allows you to embed a YouTube live stream and/or live chat on your webpage",
-            "keywords": [
-                "Craft",
-                "chat",
-                "cms",
-                "craft-plugin",
-                "craftcms",
-                "embed",
-                "live",
-                "stream",
-                "youtube"
-            ],
-            "support": {
-                "docs": "https://nystudio107.com/docs/youtubeliveembed/",
-                "issues": "https://nystudio107.com/plugins/youtube-live-embed/support",
-                "source": "https://github.com/nystudio107/craft-youtubeliveembed"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/khalwat",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-11-12T20:51:02+00:00"
-        },
-        {
-            "name": "ostark/yii2-artisan-bridge",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ostark/yii2-artisan-bridge.git",
-                "reference": "da8e75e0da4a9249cc77e785042f19ffa9c3a667"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ostark/yii2-artisan-bridge/zipball/da8e75e0da4a9249cc77e785042f19ffa9c3a667",
-                "reference": "da8e75e0da4a9249cc77e785042f19ffa9c3a667",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/console": "^3.0 || ^4.0 || ^5.0",
-                "symfony/process": "^3.0 || ^4.0 || ^5.0",
-                "yiisoft/yii2": "^2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ostark\\Yii2ArtisanBridge\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oliver Stark",
-                    "homepage": "https://www.fortrabbit.com"
-                }
-            ],
-            "description": "Brings the ease of Artisan commands and the power of Symfony console to Yii2.",
-            "keywords": [
-                "artisan",
-                "console",
-                "craftcms",
-                "laravel",
-                "symfony",
-                "yii2"
-            ],
-            "support": {
-                "docs": "https://github.com/ostark/yii2-artisan-bridge",
-                "email": "os@fortrabbit.com",
-                "issues": "https://github.com/ostark/yii2-artisan-bridge/issues",
-                "source": "https://github.com/ostark/yii2-artisan-bridge"
-            },
-            "time": "2020-08-17T13:49:34+00:00"
-        },
-        {
             "name": "paragonie/random_compat",
             "version": "v9.99.100",
             "dist": {
@@ -2782,24 +2405,24 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab"
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
-                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dd3a383e599f49777d8b628dadbb90cae435b87e",
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8",
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
             "type": "library",
             "extra": {
@@ -2841,7 +2464,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.0"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.1"
             },
             "funding": [
                 {
@@ -2853,7 +2476,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-30T15:51:26+00:00"
+            "time": "2023-02-25T19:38:58+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -3509,11 +3132,11 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "4.0.15",
+            "version": "4.0.17",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/d5e4baac441a11ff6a98dd1388b7de084024ada5",
-                "reference": "d5e4baac441a11ff6a98dd1388b7de084024ada5",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/734efab4147d531e95dfff2ded0451736d80e2eb",
+                "reference": "734efab4147d531e95dfff2ded0451736d80e2eb",
                 "shasum": ""
             },
             "require": {
@@ -3533,7 +3156,7 @@
             },
             "type": "craft-plugin",
             "extra": {
-                "schemaVersion": "4.2.2",
+                "schemaVersion": "4.2.3",
                 "handle": "freeform",
                 "class": "Solspace\\Freeform\\Freeform",
                 "name": "Freeform",
@@ -3570,7 +3193,7 @@
                 }
             ],
             "description": "Reliable form builder that's ready for wherever your project takes you.",
-            "time": "2023-02-15T05:54:05+00:00"
+            "time": "2023-03-01T16:48:30+00:00"
         },
         {
             "name": "solspace/craft3-commons",
@@ -3642,11 +3265,11 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/dccb8d251a9017d5994c988b034d3e18aaabf740",
-                "reference": "dccb8d251a9017d5994c988b034d3e18aaabf740",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c77433ddc6cdc689caf48065d9ea22ca0853fbd9",
+                "reference": "c77433ddc6cdc689caf48065d9ea22ca0853fbd9",
                 "shasum": ""
             },
             "require": {
@@ -3705,7 +3328,7 @@
                 "console",
                 "terminal"
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-25T16:59:41+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4733,16 +4356,15 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.19",
+            "version": "v6.0.19",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/c5ba874c9b636dbccf761e22ce750e88ec3f55e1",
-                "reference": "c5ba874c9b636dbccf761e22ce750e88ec3f55e1",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2114fd60f26a296cc403a7939ab91478475a33d4",
+                "reference": "2114fd60f26a296cc403a7939ab91478475a33d4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-php80": "^1.16"
+                "php": ">=8.0.2"
             },
             "type": "library",
             "autoload": {
@@ -4768,7 +4390,7 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-01-01T08:36:10+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -5112,11 +4734,11 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2944bbc23f5f8da2b962fbcbf7c4a6109b2f4b7b",
-                "reference": "2944bbc23f5f8da2b962fbcbf7c4a6109b2f4b7b",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6c5ac3a1be8b849d59a1a77877ee110e1b55eb74",
+                "reference": "6c5ac3a1be8b849d59a1a77877ee110e1b55eb74",
                 "shasum": ""
             },
             "require": {
@@ -5167,15 +4789,15 @@
                 "debug",
                 "dump"
             ],
-            "time": "2023-01-16T10:52:33+00:00"
+            "time": "2023-02-23T10:00:28+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/71c05db20cb9b54d381a28255f17580e2b7e36a5",
-                "reference": "71c05db20cb9b54d381a28255f17580e2b7e36a5",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3713e20d93e46e681e51605d213027e48dab3469",
+                "reference": "3713e20d93e46e681e51605d213027e48dab3469",
                 "shasum": ""
             },
             "require": {
@@ -5216,98 +4838,7 @@
             ],
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
-            "time": "2023-01-10T18:51:14+00:00"
-        },
-        {
-            "name": "symplify/git-wrapper",
-            "version": "10.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symplify/git-wrapper.git",
-                "reference": "8a33a1212025220d72ebe302a828296f6695dc15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symplify/git-wrapper/zipball/8a33a1212025220d72ebe302a828296f6695dc15",
-                "reference": "8a33a1212025220d72ebe302a828296f6695dc15",
-                "shasum": ""
-            },
-            "require": {
-                "nette/utils": "^3.2",
-                "php": ">=8.0",
-                "symfony/event-dispatcher": "^5.4|^6.0",
-                "symfony/process": "^5.4|^6.0"
-            },
-            "conflict": {
-                "symplify/amnesia": "<10.1.2",
-                "symplify/astral": "<10.1.2",
-                "symplify/autowire-array-parameter": "<10.1.2",
-                "symplify/coding-standard": "<10.1.2",
-                "symplify/composer-json-manipulator": "<10.1.2",
-                "symplify/config-transformer": "<10.1.2",
-                "symplify/easy-ci": "<10.1.2",
-                "symplify/easy-coding-standard": "<10.1.2",
-                "symplify/easy-parallel": "<10.1.2",
-                "symplify/easy-testing": "<10.1.2",
-                "symplify/latte-phpstan-compiler": "<10.1.2",
-                "symplify/monorepo-builder": "<10.1.2",
-                "symplify/neon-config-dumper": "<10.1.2",
-                "symplify/package-builder": "<10.1.2",
-                "symplify/php-config-printer": "<10.1.2",
-                "symplify/phpstan-extensions": "<10.1.2",
-                "symplify/phpstan-latte-rules": "<10.1.2",
-                "symplify/phpstan-rules": "<10.1.2",
-                "symplify/rule-doc-generator": "<10.1.2",
-                "symplify/rule-doc-generator-contracts": "<10.1.2",
-                "symplify/skipper": "<10.1.2",
-                "symplify/smart-file-system": "<10.1.2",
-                "symplify/symfony-static-dumper": "<10.1.2",
-                "symplify/symplify-kernel": "<10.1.2",
-                "symplify/template-phpstan-compiler": "<10.1.2",
-                "symplify/vendor-patches": "<10.1.2"
-            },
-            "require-dev": {
-                "ondram/ci-detector": "^4.1",
-                "phpunit/phpunit": "^9.5",
-                "psr/log": "^1.1",
-                "symplify/smart-file-system": "^10.1.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "10.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symplify\\GitWrapper\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A PHP wrapper around the Git command line utility.",
-            "keywords": [
-                "cli",
-                "git",
-                "git wrapper"
-            ],
-            "support": {
-                "source": "https://github.com/symplify/git-wrapper/tree/10.1.2"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/rectorphp",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/tomasvotruba",
-                    "type": "github"
-                }
-            ],
-            "abandoned": "gitonomy/gitlib",
-            "time": "2022-03-06T19:09:17+00:00"
+            "time": "2023-02-21T19:46:44+00:00"
         },
         {
             "name": "theiconic/name-parser",
