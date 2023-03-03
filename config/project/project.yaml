@@ -1,4 +1,4 @@
-dateModified: 1675551120
+dateModified: 1677812893
 elementSources:
   craft\elements\User:
     -
@@ -43,6 +43,15 @@ elementSources:
         - dateCreated
         - lastLoginDate
       type: native
+email:
+  fromEmail: wayne@creativedamages.com
+  fromName: Mr.Rover
+  replyToEmail: wayne@creativedamages.com
+  template: null
+  transportSettings:
+    apiKey: bd7a4aa56837779720621175bf3ba278
+    apiSecret: 9748cb305a2ed407dfbaa9a7b91fa7e6
+  transportType: robuust\mailjet\MailjetAdapter
 fs:
   uploads:
     hasUrls: true
@@ -124,7 +133,7 @@ plugins:
     edition: pro
     enabled: true
     licenseKey: LDCJ4O5U4H8L2HH48YYPLRUE
-    schemaVersion: 4.2.2
+    schemaVersion: 4.2.3
   logs:
     edition: standard
     enabled: true
@@ -137,10 +146,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
-  youtubeliveembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
 shopify:
   productFieldLayout:
     14b4cf26-ac49-420c-8038-968edce7d7c0: null
