@@ -32,30 +32,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 04e169dc-a7fe-444d-8fa5-b6d93de606fa # About Title
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 2643535a-cab5-48fd-8a40-62a6a473fd79
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: c7a62965-7063-4f3e-ab39-58239b6abc52 # About Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 07e5c004-78f9-4932-ba2e-2865d1c37d28
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 4623876a-58d5-4244-8aee-d6f4c0f17a35 # Mission Title
             instructions: null
             label: null
@@ -75,6 +51,30 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 8da527da-5ff8-4435-bc30-5e1ba56355bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 04e169dc-a7fe-444d-8fa5-b6d93de606fa # About Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2643535a-cab5-48fd-8a40-62a6a473fd79
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7a62965-7063-4f3e-ab39-58239b6abc52 # About Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07e5c004-78f9-4932-ba2e-2865d1c37d28
             userCondition: null
             warning: null
             width: 100

@@ -1994,7 +1994,7 @@ hr {
 
 
 .header-area .main-header {
-	padding: 0px 100px
+	padding: 0px 100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.header-area .main-header {
@@ -2032,7 +2032,7 @@ hr {
 	z-index: 1
 }
 .header-area .main-header .main-menu ul li a {
-	color: #c6c8ca;
+	color: #000;
 	font-weight: 400;
 	padding: 39px 27px;
 	display: block;
@@ -2093,7 +2093,7 @@ hr {
 	top: 100%
 }
 .header-transparent {
-	background-color: #000;
+	background-color: #b1b1b1;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2132,7 +2132,7 @@ hr {
 	top: -38px
 }
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-	background-color: white !important
+	background-color: #fff !important;
 }
 .mobile_menu .slicknav_menu .slicknav_nav {
 	margin-top: 15px !important

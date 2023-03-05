@@ -1,4 +1,4 @@
-dateModified: 1677874953
+dateModified: 1678022393
 elementSources:
   craft\elements\User:
     -
@@ -65,6 +65,7 @@ meta:
     0a2df136-aa6f-4175-b770-417641be0c5f: Home # Home
     0a236656-31d2-4d56-9f4d-a37ce86573b3: 'Heading Button Text' # Heading Button Text
     0d21094b-1403-403e-b790-266b01362b78: 'Membership Tagline' # Membership Tagline
+    01b26338-f7dc-4f8d-8a59-1560245adb6e: Founders # Founders
     1fa4cde0-bc2b-463a-88c8-fbd02650d069: service # service
     2bafadf1-9fdd-4d06-af66-1123f17fe77a: walks # walks
     2ce43aa2-0e42-4605-9227-edd21699b088: Homepage # Homepage
@@ -147,7 +148,7 @@ shopify:
   productFieldLayout:
     14b4cf26-ac49-420c-8038-968edce7d7c0: null
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'MR. ROVER'
   retryDuration: null

@@ -1,0 +1,59 @@
+description: ''
+handle: founders
+name: Founders
+permissions:
+  - accesscp
+  - accesscpwhensystemisoff
+  - accessplugin-freeform
+  - accesssitewhensystemisoff
+  - 'createfolders:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'deleteassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'deletepeerassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'deletepeerentrydrafts:0a2df136-aa6f-4175-b770-417641be0c5f' # Home
+  - 'deletepeerentrydrafts:2eb22a54-45db-4b0e-886d-65f228921301' # About
+  - 'deletepeerentrydrafts:e83ce76d-836f-4a8a-a802-d1070f64a38d' # Services
+  - 'editimages:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'editpeerimages:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - freeform-access-quick-export
+  - freeform-dashboardaccess
+  - freeform-fieldsaccess
+  - freeform-fieldsmanage
+  - freeform-formsaccess
+  - freeform-formscreate
+  - freeform-formsdelete
+  - freeform-formsmanage
+  - 'freeform-formsmanage:1'
+  - freeform-formsmanageindividual
+  - freeform-notificationsaccess
+  - freeform-notificationsmanage
+  - freeform-pro-exportnotificationsaccess
+  - freeform-pro-exportnotificationsmanage
+  - freeform-pro-exportprofilesaccess
+  - freeform-pro-exportprofilesmanage
+  - freeform-resources
+  - freeform-settingsaccess
+  - freeform-submissionsaccess
+  - freeform-submissionsmanage
+  - 'freeform-submissionsmanage:1'
+  - freeform-submissionsmanageindividual
+  - freeform-submissionsread
+  - 'freeform-submissionsread:1'
+  - freeform-submissionsreadindividual
+  - 'replacefiles:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'replacepeerfiles:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'saveassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'saveentries:0a2df136-aa6f-4175-b770-417641be0c5f' # Home
+  - 'saveentries:2eb22a54-45db-4b0e-886d-65f228921301' # About
+  - 'saveentries:e83ce76d-836f-4a8a-a802-d1070f64a38d' # Services
+  - 'savepeerassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'savepeerentrydrafts:0a2df136-aa6f-4175-b770-417641be0c5f' # Home
+  - 'savepeerentrydrafts:2eb22a54-45db-4b0e-886d-65f228921301' # About
+  - 'savepeerentrydrafts:e83ce76d-836f-4a8a-a802-d1070f64a38d' # Services
+  - 'viewassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'viewentries:0a2df136-aa6f-4175-b770-417641be0c5f' # Home
+  - 'viewentries:2eb22a54-45db-4b0e-886d-65f228921301' # About
+  - 'viewentries:e83ce76d-836f-4a8a-a802-d1070f64a38d' # Services
+  - 'viewpeerassets:6dd39846-bea4-42c9-bd98-a569eba1b583' # Uploads
+  - 'viewpeerentrydrafts:0a2df136-aa6f-4175-b770-417641be0c5f' # Home
+  - 'viewpeerentrydrafts:2eb22a54-45db-4b0e-886d-65f228921301' # About
+  - 'viewpeerentrydrafts:e83ce76d-836f-4a8a-a802-d1070f64a38d' # Services
